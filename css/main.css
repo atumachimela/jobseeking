@@ -1,0 +1,142 @@
+
+body {
+	margin:0;
+	font-family: Arial, Sans-serif;
+	font-size: 0.9em;
+}
+header {
+	position: absolute;
+	top: 0; left:0; right:0;
+	background: #fff;
+	opacity: 0.7;
+	z-index: 99;
+}
+nav ul {
+	padding:0; margin:0;
+	float:right;
+	padding: 0.7em 2em;
+}
+nav ul li {
+	float:left;
+	margin-right: 1em;
+}
+.post-a-job-section {
+	position: relative;
+	background: url(../img/1.jpg) no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.post-a-job-cta {
+	position: absolute;
+	top: 6em;
+	left: 10em;
+	width: 17em;
+}
+.post-a-job-cta p {
+	line-height: 1.6em;
+}
+.buttons {
+	display: inline-block;
+	background: green;
+	padding: 0.7em 1.2em;
+	color: #fff;
+	text-decoration: none;
+}
+.hire-drivers-section {
+	background: black;
+	position: absolute;
+	bottom: 0; left:0; right:0;
+	text-align: center;
+	opacity: 0.7;
+	padding: 2.0em 0;
+}
+.hire-drivers-section h1 {
+	font-size: 1.4em;
+	color: white;
+	margin: 0;
+}
+.hire-drivers-section p {
+	font-size: 0.85em;
+	color: white;
+	margin: 0;
+	margin-top: 1.0em;
+}
+.how-it-works-section {
+	text-align: center;
+	width: 100%;
+	/*padding: 3.0em 5.0em;*/
+	text-align: center;
+}
+.how-it-works-section ul {
+	overflow: hidden;
+}
+.how-it-works-section ul li {
+	display: inline-block;
+	/*float: left;*/
+	padding:5px 5px;
+}
+.arrow-bullet {
+	padding-bottom: 55px;
+}
+.looking-for-job {	
+	position: relative;
+	background: url(../img/road2.jpg) no-repeat;
+	background-size: cover;
+	height: 150px;
+	padding: 3.0em 5.0em;
+	text-align: center;
+	opacity: 0.7;
+	padding: 2.0em 0;
+}
+.our-partners
+{
+	text-align:center;
+	float:right;
+	padding: 2.0em;
+	margin-right: 6px;
+	margin-left: 6px;
+	padding-top: 5px;
+	width:100%;
+}
+.our-partners ul li 
+{
+	/*float:left;*/
+	/*padding: 2.0em 0;*/
+	margin:8px;
+	display: inline-block;
+}
+.footer
+{
+	float:right;
+	background-color: #B0B0B0;
+	width:100%;
+	border:2px;
+	padding: 5px;
+	border-top: solid green;
+}
+.footer ul li 
+{
+	float:left;
+	color:#fff;
+	text-align:left;
+	margin-left:5px;
+	padding:10px;
+
+}
+
+img 
+{
+	width: 100%;
+}
+#arablogodiv
+{
+	width:20%;
+	position: absolute;
+
+}
+#arablogo
+{
+	width:80%;
+	float: left;
+	margin-left:20px;
+}
